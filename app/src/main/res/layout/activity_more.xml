@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#F2F2F2"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:text="基础功能"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_single"
+        android:text="调试Activity入栈管理"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

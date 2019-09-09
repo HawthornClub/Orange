@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".othertest.test.TestActivity">
+
+    <ImageView
+        android:id="@+id/img_bg"
+        android:src="@drawable/shop_bg"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.zhidiantech.orangesample.othertest.test.ImageLayout
+        android:id="@+id/image_layout"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.zhidiantech.orangesample.othertest.test.ImageLayout>
+
+    <TextView
+        android:padding="20dp"
+        android:layout_gravity="right|bottom"
+        android:text="+"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

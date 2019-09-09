@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="欢迎体验OrangeBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#F2F2F2"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:text="基础功能"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_1"
+        android:text="调试页面内容替换"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_2"
+        android:text="调试多业务页面"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_single"
+        android:text="调试单业务页面"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#F2F2F2"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:text="UI特性"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_3"
+        android:text="更改标题栏颜色"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_push_dialog"
+        android:text="旧版Push弹窗"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#000000"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:id="@+id/bt_open_push_dialog_update"
+        android:text="新版Push弹窗"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
